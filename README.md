@@ -182,6 +182,60 @@ Task Cost (Ops+Parts) := SUM('tasks'[cost_usd]) + SUM('tasks'[parts_cost_usd])
 
 ---
 
+## Insights
+
+Below are the key takeaways from the Power BI report using six representative visuals.
+
+### 1) Demand & vendor share over time
+<p align="center">
+  <img src="Assets/performance__trips_by_month.png" width="880" alt="Trips by month and vendor">
+</p>
+
+- Clear seasonality with a late-summer/early-autumn peak, softening into winter.
+- Vendor mix remains competitive with only gradual rotation month-to-month.
+
+### 2) When & where people ride (hour × area type)
+<p align="center">
+  <img src="Assets/competition__trips_heatmap.png" width="880" alt="Trips heatmap by hour and area type">
+</p>
+
+- Downtown concentrates trips in morning/evening commuting bands; residential areas skew to midday and evening.
+- The pattern holds across vendors, indicating consistent citywide behavior.
+
+### 3) Ops quality by place (SLA% & handling minutes)
+<p align="center">
+  <img src="Assets/performance__sla_matrix.png" width="880" alt="SLA% and handling minutes matrix by vendor and area type">
+</p>
+
+- SLA% (share of tasks within target) sits in the low-to-mid-70s overall.
+- Handling minutes vary by vendor and area type, suggesting different crew footprints or routing efficiency.
+
+### 4) Operational load vs speed
+<p align="center">
+  <img src="Assets/performance__ops_load_vs_handle.png" width="880" alt="Operational load vs handling time scatter">
+</p>
+
+- As average trips per hour rise, handling time tends to increase (congestion/queueing effect).
+- Points farther above the trend indicate opportunities to rebalance staffing or staging.
+
+### 5) Risk vs spend (incidents/1k vs cost/1k)
+<p align="center">
+  <img src="Assets/competition__incidents_vs_cost.png" width="880" alt="Incidents per 1k vs cost per 1k">
+</p>
+
+- Incident rates per 1k trips cluster tightly, but **cost per 1k** diverges—some vendors spend more to achieve similar risk.
+- Best-in-class quadrant: lower incident rate **and** lower cost per 1k.
+
+### 6) Fleet capability mix (battery capacity)
+<p align="center">
+  <img src="Assets/fleet__battery_capacity_by_vendor.png" width="880" alt="Battery capacity of fleet by vendor">
+</p>
+
+- Battery-capacity distributions differ by vendor (e.g., heavier 620Wh share vs lighter packs).
+- This mix explains parts of the operational profile (range, swap frequency, and task load).
+
+---
+
 ## Data dictionary (abridged)
 
 - **hourly_demand_by_vendor**: `day, hour, service_area_id, community_area_name, vendor, trips, share_within_day, share_within_vendor_day`
