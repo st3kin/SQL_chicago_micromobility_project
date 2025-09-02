@@ -188,7 +188,7 @@ Below are the key takeaways from the Power BI report using six representative vi
 
 ### 1) Demand & vendor share over time
 <p align="center">
-  <img src="Assets/performance__trips_by_month.png" width="880" alt="Trips by month and vendor">
+  <img src="Assets/perf__trips_by_month.png" width="600" alt="Trips by month and vendor">
 </p>
 
 - Clear seasonality with a late-summer/early-autumn peak, softening into winter.
@@ -196,7 +196,7 @@ Below are the key takeaways from the Power BI report using six representative vi
 
 ### 2) When & where people ride (hour × area type)
 <p align="center">
-  <img src="Assets/competition__trips_heatmap.png" alt="Trips heatmap by hour and area type">
+  <img src="Assets/comp__trips_heatmap.png" height="800" alt="Trips heatmap by hour and area type">
 </p>
 
 - Downtown concentrates trips in morning/evening commuting bands; residential areas skew to midday and evening.
@@ -204,7 +204,7 @@ Below are the key takeaways from the Power BI report using six representative vi
 
 ### 3) Ops quality by place (SLA% & handling minutes)
 <p align="center">
-  <img src="Assets/performance__sla_matrix.png" alt="SLA% and handling minutes matrix by vendor and area type">
+  <img src="Assets/perf__sla_matrix.png" width="800" alt="SLA% and handling minutes matrix by vendor and area type">
 </p>
 
 - SLA% (share of tasks within target) sits in the low-to-mid-70s overall.
@@ -212,7 +212,7 @@ Below are the key takeaways from the Power BI report using six representative vi
 
 ### 4) Operational load vs speed
 <p align="center">
-  <img src="Assets/performance__ops_load_vs_handle.png" alt="Operational load vs handling time scatter">
+  <img src="Assets/perf__ops_load_vs_handle.png" width="600" alt="Operational load vs handling time scatter">
 </p>
 
 - As average trips per hour rise, handling time tends to increase (congestion/queueing effect).
@@ -220,7 +220,7 @@ Below are the key takeaways from the Power BI report using six representative vi
 
 ### 5) Risk vs spend (incidents/1k vs cost/1k)
 <p align="center">
-  <img src="Assets/competition__incidents_vs_cost.png" alt="Incidents per 1k vs cost per 1k">
+  <img src="Assets/comp__incidents_vs_cost.png" width="600" alt="Incidents per 1k vs cost per 1k">
 </p>
 
 - Incident rates per 1k trips cluster tightly, but **cost per 1k** diverges—some vendors spend more to achieve similar risk.
@@ -228,7 +228,7 @@ Below are the key takeaways from the Power BI report using six representative vi
 
 ### 6) Fleet capability mix (battery capacity)
 <p align="center">
-  <img src="Assets/fleet__battery_capacity_by_vendor.png" alt="Battery capacity of fleet by vendor">
+  <img src="Assets/fl__battery_capacity_by_vendor.png" width="600" alt="Battery capacity of fleet by vendor">
 </p>
 
 - Battery-capacity distributions differ by vendor (e.g., heavier 620Wh share vs lighter packs).
