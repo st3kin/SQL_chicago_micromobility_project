@@ -5,7 +5,7 @@
 ---
 
 ## Why this project
-This project was borne out of a lack of access to real vendor data in my desire to analyse the micromobility industry with a focus on realistic and dynamic figures. After searching for comprehensive datasets on micromobility to no avail, I decided to script my own synthetic MDS datasets using the *e-scooter trips* data from the City of Chicago’s data portal as a baseline. I created 7 different Python scripts for 7 tables — **hourly_demand**, **incidents**, **status_changes**, **tasks**, **vehicles**, **pricing_policies**, and **service_areas**. The locations were extracted from the original Chicago data to preserve authenticity. The output was exported as CSV files, which I then loaded into a local **PostgreSQL** database for ETL, queried with SQL to shape smaller analytical extracts, and finally modeled and visualized in **Power BI**.
+This project was borne out of a lack of access to real vendor data in my desire to analyse the micromobility industry with a focus on realistic and dynamic figures. After searching for comprehensive datasets on micromobility to no avail, I decided to script my own synthetic MDS datasets using the *e-scooter trips* data from the City of Chicago’s data portal as a baseline. I created 7 different Python scripts for 7 tables; **hourly_demand**, **incidents**, **status_changes**, **tasks**, **vehicles**, **pricing_policies**, and **service_areas**. The locations were extracted from the original Chicago data to preserve authenticity. The output was exported as CSV files, which I then loaded into a local **PostgreSQL** database for ETL, queried with SQL to shape smaller analytical extracts, and finally modeled and visualized in **Power BI**.
 
 
 ---
@@ -257,7 +257,7 @@ Below are the key takeaways from the Power BI report using six representative vi
 ---
 
 ## Caveats
-- This is **synthetic** data: realistic but not real. It should be used for methods, prototypes, and portfolio work — **not** for operational or policy decisions.
+- This is **synthetic** data: realistic but not real. It should be used for methods, prototypes and portfolio work, **not** for operational or policy decisions.
 - Vendor names and shares are simulated; any resemblance to reality is coincidental.
 
 ---
